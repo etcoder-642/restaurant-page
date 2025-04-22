@@ -1,10 +1,10 @@
-import image1 from '../assets/images/homePage/grilled_lemon_herb_chicken.jpg';
-import image2 from  '../assets/images/homePage/creamy_mushroom_risotto.jpg';
-import image3 from   '../assets/images/homePage/classic_margherita_pizza.jpg';
-import image4 from   '../assets/images/homePage/angus_beef_burger.jpg';
-import image5 from  '../assets/images/homePage/caprese_salad.jpg';
-import image6 from  '../assets/images/homePage/penne_arrabbiata.jpg';
-import image7 from   '../assets/images/homePage/tiramisu.jpg';
+import image1 from '../images/homePage/grilled_lemon_herb_chicken.jpg';
+import image2 from  '../images/homePage/creamy_mushroom_risotto.jpg';
+import image3 from   '../images/homePage/classic_margherita_pizza.jpg';
+import image4 from   '../images/homePage/angus_beef_burger.jpg';
+import image5 from  '../images/homePage/caprese_salad.jpg';
+import image6 from  '../images/homePage/penne_arrabbiata.jpg';
+import image7 from   '../images/homePage/tiramisu.jpg';
 
 
 export const homePageText = [
