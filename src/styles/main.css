@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-bg-color: #ffe4c4;
+    --navbar-bg-color: #ce7509; 
+}
+
+.container {
+    display: grid;
+    background-color: var(--primary-bg-color);
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar > ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    justify-content: end;
+    margin: 12px 32px;
+    font-size: 20px; 
+    color: #d4d4d4; 
+}
+
+.navbar > ul > li:hover {
+    color:#ffffff;
+}
+
+.navbar {
+    background-color: var(--navbar-bg-color);
+}
+
+.content {
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 64px;
+    padding: 64px;
+}
+
+.content > header {
+    grid-column: 1 / -1;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+section > div {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.content > header > p > i {
+    display: block;
+    background-color: var(--navbar-bg-color);
+    padding: 6px;
+    border-radius: 16px;
+    color: white;
+    margin: 12px auto;
+    width: fit-content;
+}
+
+.content > header > p > span {
+    display: block;
+    margin: 0px auto;
+    margin-top: 24px;
+    max-width: 640px;
+}
+
+.content > header > h1 {
+    margin: 48px 0px;
+    font-size: 48px;
+}
+
+.card {
+    background-color: #f3cc9c;
+    border-radius: 16px;
+    max-width: 400px;
+    margin: auto;
+    /* padding: 16px; */
+}
+
+.card > .caption {
+    margin: 16px;
+    padding: 16px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
