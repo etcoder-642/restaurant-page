@@ -50,7 +50,7 @@ header {
 /* Home Page styles */
 
 
-.homePage__title{
+.homePage__title, .aboutUs__title{
     font-size: 48px;
     font-weight: 700;
 }
@@ -60,7 +60,7 @@ header {
     margin: 64px;
 }
 
-.homePage__contentContainer > header > p > i {
+.homePage__contentContainer i, .aboutUs__contentContainer i {
     display: block;
     background-color: var(--navbar-bg-color);
     padding: 6px;
@@ -70,11 +70,11 @@ header {
     width: fit-content;
 }
 
-.homePage__contentContainer > header > p > span {
+.homePage__contentContainer span, .aboutUs__contentContainer span {
     display: block;
     margin: 0px auto;
     margin-top: 24px;
-    max-width: 640px;
+    max-width: 660px;
 }
 
 .homePage__contentContainer > header > h1 {
@@ -160,3 +160,16 @@ img {
     object-fit: cover;
 }
 
+
+/* AboutUs Page styles */
+
+.aboutUs__label {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 12px;
+}
+
+
+.aboutUs__card {
+    margin: 64px;
+}
